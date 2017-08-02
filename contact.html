@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+	<!--To Make a Responsive Website-->
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="HandheldFriendly" content="true">
+	
+	<title> Contact </title>
+	<link rel="stylesheet" type="text/css" media="screen" href="vanessaweb.css" />  
+	<link rel="stylesheet" type="text/css" media="screen" href="contactform.css" /> 
+	
+	
+	<!-- Navigation bar-->
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="portfolio.html">PORTFOLIO</a></li>
+		<li><a href="about.html">ABOUT</a></li>
+		<li><a href="contact.html">CONTACT</a></li>
+	</ul>
+
+	
+	<!--Logo-->
+	<div id="logo">
+		<a href="index.html"><img src="images/vanessalogo.png"></a>
+	</div>
+	
+		
+	<div class="line">
+		<img src="images/line.png">
+	</div>
+	
+	
+	<style>
+	#contact {margin-left:300px;}
+	</style>
+	
+  </head>
+  
+	
+  <body background="images/contactbg.jpg"
+		style="background-position:center;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size:cover;">
+
+		<div id="contact">
+		<h1> CONTACT ME </h1>
+		<!--	<hr size="10" width="60%" color="grey" align="left" > -->
+		</div>
+		
+		<div class="contact">
+			<b>Address:</b>  35 Nantha Way, Brookfield, VIC 3338</br> 
+			<b>Email:</b> bautistavanessa11@yahoo.com</br> 
+			<b>Mobile:</b> (+61) 426-846-211
+		</div>
+
+		<!-- Contact Form-->
+  <div class="container">
+  <form>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="philippines">Philippines</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:150px"></textarea>
+
+    <input type="submit" value="Submit">
+
+   </form>
+   </div>
+			
+  </body>
+</html>
